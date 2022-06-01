@@ -1,0 +1,105 @@
+ body {margin: 0px;font-family: "Amatic SC", sans-serif; font-size: 2em; }
+
+header {background-color: none; color: #ffff00;padding: 0% 0% 0px 0%; text-align: left;}
+
+nav {font-size: 1.5em; display: inline; position: fixed; transform: translate(calc(50vw - 50%));position: fixed;text-align: center;}
+
+nav ul li a {text-transform: uppercase; text-align: center;}
+
+#nav ul {padding: 0%; list-style: none; margin-bottom: -0%;}
+
+#nav ul li {position: relative; border-bottom: 1px solid black; width: 200px; float: left; }
+
+#nav li ul {position: absolute; z-index: 1;display: none; margin: 0;}
+
+#nav ul li a {display: block;text-decoration: none; color: #FFFACD; background: none; padding: 5px;}
+
+#nav li:hover ul {display: block; }
+
+#nav li:hover a { color: #fff;background: black;}
+
+#nav li:hover ul a:hover {color: black; background: white;}
+
+#nav {font-family: "Prata;", sans-serif; font-size: 0.5em; text-align: left; font-style: normal; margin-top: 70px;}
+
+
+.contenitore{
+  height:100%;
+}
+.videofullscreen{
+  position:absolute;
+  overflow: hidden;
+  width:100% !important;
+  height:100% !important;
+  object-fit: cover;
+  z-index: -100;
+}
+
+h1 { text-align: center; font-size: 5em; padding: 0; margin-top: 0; margin-bottom: 35px;text-shadow: 1px 3px 2px black;}
+
+h2 {text-align: center; font-size: 1em; padding: 0; margin-top: -1em; text-shadow: 1px 3px 2px black; 
+}
+ 
+
+.footer{
+background:none;
+padding: 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+/*margin-top: 350px !important;*/
+position: fixed;
+bottom: 0;
+left: 0;
+transform: translate(calc(50vw - 50%));
+}
+
+.footer .row{
+width:100%;
+margin:0% 0% 0% 0%;
+padding:0% 0%;
+color:gray;
+font-size:0.5em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:#ffff99;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin: 15px 100px 30px 5px;
+}
+
+.footer .row a i{
+font-size: 1.5em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+
+
+
+#music {color: #ffff00; text-shadow: 1px 3px 2px black; font-size: 150px; }
+
