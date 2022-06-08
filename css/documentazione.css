@@ -1,0 +1,8 @@
+body {font-family: 'Prata'; font-size: 1.3em;text-align: center;line-height: 1.5em; background-color: #FFFACD;}
+p {text-decoration: underline;}
+div {margin-right: 10%;margin-left: 10%;}
+#architettura {max-width: 70%; }
+#homepage {max-width: 60%;}
+#calendario {max-width: 40%;}
+#community {max-width: 40%;}
+
